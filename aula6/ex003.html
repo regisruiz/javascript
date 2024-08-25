@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS</title>
+    <style>
+        /*CSS*/        
+        body{
+            background-color: #f2f3e6;
+            color: #030303;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: rgb(118, 75, 238);
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros Passos em Javascript!</h1>
+    <p>Aqui seguem os primeiros comandos em Javascript!</p>
+
+    <script>
+        //Comandos em JS         
+        var n1 = Number(window.prompt("Dgite um número: ")); //prompt recebe string
+        var n2 = Number(window.prompt("Digite outro número: ")); //conversão para numero com Number
+        var soma = n1 + n2;
+        //window.alert("A soma é " + soma);
+        alert(`A soma entre ${n1} e ${n2}, é ${soma}`);
+        //(number + number)para adição
+        //(string + string)para concatenação
+
+    </script>    
+</body>
+</html>
